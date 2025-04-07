@@ -62,21 +62,22 @@ npm run dev
 ## Etape 1: Menu dynamique
 - Modifier le composant du Menu pour utiliser une liste afin d'éviter la répétition de codes
 - Faire en sorte que l'item selectionné dans le menu soit actif
-- Créer un composent dédié pour chaque item du menu et afficher le bon composant en fonction du menu selectionné.
+- Créer un composent dédié permettant d'afficher le contenu lié au menu selectionné.
 > Pour l'instant, afficher simplement un text avec le nom du menu dans le contenu de chaque composant, on les complètera dans les étapes suivantes
 - Commit avec le messaage "TD04 : Gestion de menu dynamique"
 
 ## Etape 2: Gestion de données des composants 
-Dans cette section, vous allez gérer le contenu des composants liés au menu en utilisant des liste d'objects statiques. Pour cela, récupérer les fichiers de données (notes.json, students.json, class.json et teachers.json) et importez les dans un dossier data de votre projet. 
+Dans cette section, vous allez gérer le contenu des composants liés au menu en utilisant des liste d'objects statiques. Pour cela, récupérer le fichier data.json et importez les dans un dossier data de votre projet. 
 
 > Attention, cette étape contient plusieurs tâches, une par menu 
 
 1. Mettre à jour les dépendances du projet en y intégrant les libraries material ui [https://mui.com/material-ui/getting-started/installation/]
 2. Se familliariser avec les composants Table [https://mui.com/material-ui/react-table/] -- Commencer par le Basic Table pour l'instant
-3. Utiliser les fichiers de données pour remplir le contenu des différents composants en utilisant des tableaux
-4. Commmiter avec le message "TD04: Remplir le contenu du composant [XXX]"
+3. Utiliser les données du fichier data.js pour remplir le contenu des composants en utilisant des tableaux
+4. Commmiter avec le message "TD05: Remplir le contenu du composant [XXX]"
 5. Push
-> Répéter les étapes 1 à 5 pour tous les composants
+> Répéter les étapes 1 à 5 pour les composants Notes, Etudiants et Matières.
+> Remplir le composant lié au Menu A propos avec vos coordonnées (eg. Ce projet est réalisé par XXX YYYY)
 
 
 
