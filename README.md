@@ -82,9 +82,7 @@ Dans cette section, vous allez gérer le contenu des composants liés au menu en
 ## Etape 3: Optimisez la page 
 1. Mettre à jour le CSS pour avoir un rendu plus user-friendly
 2. Optimisez l'affichage des données en incluant : la recherche, la pagination et l'ordonnancement (croissante/decroissante) des colonnes.
- 
-
-
+3. Ajoutez une animation quand on change de menu (eg. fadein/fadeout) 
 
 
 
